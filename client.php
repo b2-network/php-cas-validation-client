@@ -24,10 +24,10 @@ require_once $phpcas_path . '/CAS.php';
 require_once './vendor/ec-europa/ecas-phpcas-parser/src/EcasPhpCASParser.php';
 
 // Enable debugging
-// phpCAS::setDebug("debug.log");
+ phpCAS::setDebug("debug.log");
 
 // Enable verbose error messages. Disable in production!
-// phpCAS::setVerbose(true);
+ phpCAS::setVerbose(true);
 
 // Initialize phpCAS
 phpCAS::client(CAS_VERSION_2_0, $cas_host, $cas_port, $cas_context);
@@ -95,6 +95,7 @@ CAS_decodeAttributes(phpCAS::getAttributes());
 ?>
 </ul>
     <p><a href="?logout=">Logout</a></p>
+    <p><?php echo date(DATE_RFC2822); ?></p>
   </body>
 </html>
 <?php
