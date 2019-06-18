@@ -8,7 +8,7 @@ Copy config.php.sample to config.php, then edit and set good values.
 ## Testing
 Open a cli on your computer, then start php web server:
 ```
-php -S 127.0.0.1:8080 client.php
+php -S 127.0.0.1:8080 -t .
 ```
 Open your favorite web browser, then authentify yourself on the CAS server.
 On Success, you should have:
