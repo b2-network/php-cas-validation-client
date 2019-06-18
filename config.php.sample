@@ -27,4 +27,5 @@ $cas_context = '/cas';
 $cas_port = 443;
 
 // Path to the ca chain that issued the cas server certificate
+// Let's Encrypt default CA
 $cas_server_ca_cert_path = 'cachain.pem';
