@@ -1,0 +1,16 @@
+{
+    "name": "nicolas/php-cas-validation-client",
+    "description": "Sample CAS client",
+    "type": "project",
+    "require": {
+        "jasig/phpcas": "^1.3",
+        "ec-europa/ecas-phpcas-parser": "~0.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Belan",
+            "email": "nbelan@b2.network"
+        }
+    ]
+}
